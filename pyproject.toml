@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jaxtpu"
-version = "0.1.5"
+version = "0.1.6"
 readme = "README.md"
 homepage = "https://github.com/shawwn/jaxtpu"
 description = "A helper package to install the latest JAX on TPUs, along with all necessary dependencies (e.g. libtpu-nightly)"
@@ -9,16 +9,9 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-jax = {version = "^0.2.18", extras = ["tpu"]}
-jaxlib = "0.1.69"
-libtpu-nightly = {url = "https://storage.googleapis.com/cloud-tpu-tpuvm-artifacts/wheels/libtpu-nightly/libtpu_nightly-0.1.dev20210709-py3-none-any.whl"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-
-[build-system]
-requires = ["setuptools", "poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.urls]
 "Shawn's Website" = "https://www.shawwn.com"
