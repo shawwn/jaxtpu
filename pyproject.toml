@@ -8,7 +8,11 @@ authors = ["Shawn Presser"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.7"
+jax = "^0.2.18"
+jaxlib = "0.1.69"
+libtpu-nightly = "^0.1.dev20210709"
+
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -22,3 +26,8 @@ build-backend = "poetry.core.masonry.api"
 "Support me on Patreon" = "https://www.patreon.com/shawwn"
 "@theshawwn on Twitter" = "https://www.twitter.com/theshawwn"
 "sillysaurusx on Hacker News" = "https://news.ycombinator.com/threads?id=sillysaurusx"
+
+[[tool.poetry.source]]
+name = "jaxtputest"
+url = "https://jaxtputest.vercel.app"
+secondary = true
