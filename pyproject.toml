@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jaxtpu"
-version = "0.1.2"
+version = "0.1.3"
 readme = "README.md"
 homepage = "https://github.com/shawwn/jaxtpu"
 description = "A helper package to install the latest JAX on TPUs, along with all necessary dependencies (e.g. libtpu-nightly)"
